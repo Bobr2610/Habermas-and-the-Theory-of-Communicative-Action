@@ -1,7 +1,7 @@
 Write-Host "Building PDF for current markdown..." -ForegroundColor Cyan
 
-$inputFile = "Main.md"
-$outputFile = "Main.pdf"
+$inputFile = "Readme.md"
+$outputFile = "Doc.pdf"
 
 if (-not (Test-Path $inputFile)) {
     Write-Host "File not found: $inputFile" -ForegroundColor Red
